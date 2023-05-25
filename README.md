@@ -1,6 +1,6 @@
-#  Download_Podcast
+#  An Airflow Data Pipeline To Download Podcasts
 
-A data pipeline using Airflow
+
 # Project Overview
 In this project, we'll create a data pipeline using Airflow. The pipeline will download podcast episodes and automatically transcribe them using speech recognition. We'll store our results in a SQLite database that we can easily query.
 
@@ -20,7 +20,7 @@ By the end of this project, you'll have a good understanding of how to use Airfl
 <li>Create a SQLite database to hold podcast metadata</li>
 <li>Download the podcast audio files using requests</li>
 <li>Transcribe the audio files using vosk</li>
-  </ul>
+</ul>
 
 # Code
 You can find the code for this project here.
@@ -32,7 +32,7 @@ File overview:
   <li>steps.md - a description of the steps you'll need to follow to complete the project. It's not perfectly organized.</li>
  </ul>
  
-# Local Setup
+# Tools Required
 Installation
 To follow this project, please install the following locally:
 <ul>
@@ -48,7 +48,6 @@ To follow this project, please install the following locally:
   <li>pydub</li>
   </ul>
   </ul>
-Installing Airflow can be tricky - see the documentation here. We recommend following these instructions. Please ensure that you have access to the Airflow web interface after installing it by running airflow standalone.
 
 # Data
 We'll download the data we need during this project, including a language model for vosk, and podcast episodes. If you want to view the podcast metadata page, it is <a href="https://www.marketplace.org/feed/podcast/marketplace/">here</a>.
